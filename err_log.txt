@@ -1,0 +1,291 @@
+
+	============================================
+		错误名：SyntaxError
+		错误消息：Unexpected token c in JSON at position 16
+		文件名：undefined
+		行号：undefined
+		错误堆栈：SyntaxError: Unexpected token c in JSON at position 16
+    at Object.parse (native)
+    at C:/Users/Administrator/Desktop/edu/src/app.js:31:21
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:275:10)
+    at C:/Users/Administrator/Desktop/edu/src/app.js:21:2
+		错误时间：1558259103309 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：ENOENT: no such file or directory, open 'C:\Users\Administrator\Desktop\edu\dafda'
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: ENOENT: no such file or directory, open 'C:\Users\Administrator\Desktop\edu\dafda'
+    at Error (native)
+		错误时间：1558259222346 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：ENOENT: no such file or directory, open 'C:\Users\Administrator\Desktop\edu\dafda'
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: ENOENT: no such file or directory, open 'C:\Users\Administrator\Desktop\edu\dafda'
+    at Error (native)
+		错误时间：1558259257726 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：SyntaxError
+		错误消息：Unexpected token c in JSON at position 16
+		文件名：undefined
+		行号：undefined
+		错误堆栈：SyntaxError: Unexpected token c in JSON at position 16
+    at Object.parse (native)
+    at C:/Users/Administrator/Desktop/edu/src/app.js:31:21
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:275:10)
+    at C:/Users/Administrator/Desktop/edu/src/app.js:21:2
+		错误时间：1558259690587 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：No default engine was specified and no extension was provided.
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: No default engine was specified and no extension was provided.
+    at new View (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\view.js:61:11)
+    at EventEmitter.render (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:570:12)
+    at ServerResponse.render (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\response.js:1016:7)
+    at C:/Users/Administrator/Desktop/edu/src/app.js:42:6
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:335:12)
+		错误时间：1558261150359 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：No default engine was specified and no extension was provided.
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: No default engine was specified and no extension was provided.
+    at new View (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\view.js:61:11)
+    at EventEmitter.render (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:570:12)
+    at ServerResponse.render (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\response.js:1016:7)
+    at C:/Users/Administrator/Desktop/edu/src/app.js:41:6
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:335:12)
+		错误时间：1558261214155 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：No default engine was specified and no extension was provided.
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: No default engine was specified and no extension was provided.
+    at new NunjucksView (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:280:57)
+    at EventEmitter.render (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:570:12)
+    at ServerResponse.render (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\response.js:1016:7)
+    at C:/Users/Administrator/Desktop/edu/src/app.js:40:6
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:335:12)
+		错误时间：1558261288265 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：No default engine was specified and no extension was provided.
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: No default engine was specified and no extension was provided.
+    at new NunjucksView (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:280:57)
+    at EventEmitter.render (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:570:12)
+    at ServerResponse.render (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\response.js:1016:7)
+    at C:/Users/Administrator/Desktop/edu/src/app.js:40:6
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\router\index.js:335:12)
+		错误时间：1558261316788 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：template not found: index.html
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: template not found: index.html
+    at createTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:207:31)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:210:13)
+    at handle (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:253:25)
+    at C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:264:21
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:207:13)
+    at Object.exports.asyncIter (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:214:5)
+    at new_cls.getTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:243:17)
+    at new_cls.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:305:14)
+    at NunjucksView.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:285:15)
+    at tryRender (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:640:10)
+		错误时间：1558261390652 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：template not found: index.html
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: template not found: index.html
+    at createTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:207:31)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:210:13)
+    at handle (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:253:25)
+    at C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:264:21
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:207:13)
+    at Object.exports.asyncIter (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:214:5)
+    at new_cls.getTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:243:17)
+    at new_cls.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:305:14)
+    at NunjucksView.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:285:15)
+    at tryRender (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:640:10)
+		错误时间：1558261544795 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：template not found: index.html
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: template not found: index.html
+    at createTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:207:31)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:210:13)
+    at handle (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:253:25)
+    at C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:264:21
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:207:13)
+    at Object.exports.asyncIter (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:214:5)
+    at new_cls.getTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:243:17)
+    at new_cls.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:305:14)
+    at NunjucksView.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:285:15)
+    at tryRender (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:640:10)
+		错误时间：1558261549061 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：template not found: index.html
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: template not found: index.html
+    at createTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:207:31)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:210:13)
+    at handle (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:253:25)
+    at C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:264:21
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:207:13)
+    at Object.exports.asyncIter (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:214:5)
+    at new_cls.getTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:243:17)
+    at new_cls.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:305:14)
+    at NunjucksView.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:285:15)
+    at tryRender (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:640:10)
+		错误时间：1558261560552 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：template not found: index.html
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: template not found: index.html
+    at createTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:207:31)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:210:13)
+    at handle (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:253:25)
+    at C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:264:21
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:207:13)
+    at Object.exports.asyncIter (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:214:5)
+    at new_cls.getTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:243:17)
+    at new_cls.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:305:14)
+    at NunjucksView.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:285:15)
+    at tryRender (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:640:10)
+		错误时间：1558261635642 
+
+
+
+	=================================================
+			
+	============================================
+		错误名：Error
+		错误消息：template not found: index.html
+		文件名：undefined
+		行号：undefined
+		错误堆栈：Error: template not found: index.html
+    at createTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:207:31)
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:210:13)
+    at handle (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:253:25)
+    at C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:264:21
+    at next (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:207:13)
+    at Object.exports.asyncIter (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\lib.js:214:5)
+    at new_cls.getTemplate (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:243:17)
+    at new_cls.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:305:14)
+    at NunjucksView.render (C:\Users\Administrator\Desktop\edu\node_modules\nunjucks\src\environment.js:285:15)
+    at tryRender (C:\Users\Administrator\Desktop\edu\node_modules\express\lib\application.js:640:10)
+		错误时间：1558261640032 
+
+
+
+	=================================================
+			
