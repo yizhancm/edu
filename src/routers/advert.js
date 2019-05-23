@@ -8,31 +8,38 @@ import  config from '../config.js'
 const router = express.Router()
 
 router.get('/advert', (req, res, next) => {
-	
-	const page = Number.parseInt(req.query.page) ? Number.parseInt(req.query.page) : 1
-	const pageSize = 5
-	console.log(page);
-	Advert
-		.find()
-		.skip((page-1) * pageSize)
-		.limit(pageSize)
-		.exec((err, adverts) => {
-			if(err) {
-				return next(err)
-			}
-			Advert.estimatedDocumentCount((err, count) => {
-				if(err) {
-					return next(err)
-				}
-				const totolPage = Math.ceil(count / pageSize)
-				res.render('advert_list.html', {
-					adverts,
-					totolPage,
-					page
-				})			
-			})		
-	})
+	res.render('advert_list.html')
+	// const page = Number.parseInt(req.query.page) ? Number.parseInt(req.query.page) : 1
+	// const pageSize = 5
+	// console.log(page);
+	// Advert
+	// 	.find()
+	// 	.skip((page-1) * pageSize)
+	// 	.limit(pageSize)
+	// 	.exec((err, adverts) => {
+	// 		if(err) {
+	// 			return next(err)
+	// 		}			
+	// 		res.render('advert_list.html', {
+	// 			adverts,
+	// 			totolPage,
+	// 			page
+	// 		})			
+	// 	}		
+	// })
 
+})
+
+router.get('/advert/count', (req, res, next) => {
+	Advert.count((err, count) => {
+		if (err) {
+			return next(err)
+		}
+		res.json({
+			err_code: 0,
+			result: count
+		})
+	})
 })
 
 router.get('/advert/add', (req, res, next) => {
@@ -41,44 +48,88 @@ router.get('/advert/add', (req, res, next) => {
 
 
 router.post('/advert/add', (req, res, next) => {	
-	const form = new formidable.IncomingForm()
-	form.uploadDir = config.uploadDir
-	form.keepExtensions = true
-	form.parse(req, (err, fields, files) => {
-		if (err) {
-			return next(err)
-		}
-		const body = fields
-		body.image = basename(files.image.path)			
-		const advert = new Advert({
-			title: body.title,
-			image: body.image,
-			link: body.link,
-			start_time: body.start_time,
-			end_time: body.end_time				
+	// const form = new formidable.IncomingForm()
+	// form.uploadDir = config.uploadDir
+	// form.keepExtensions = true
+	// form.parse(req, (err, fields, files) => {
+	// 	if (err) {
+	// 		return next(err)
+	// 	}
+	// 	const body = fields
+	// 	body.image = basename(files.image.path)			
+	// 	const advert = new Advert({
+	// 		title: body.title,
+	// 		image: body.image,
+	// 		link: body.link,
+	// 		start_time: body.start_time,
+	// 		end_time: body.end_time				
+	// 	})
+	// 	advert.save((err, result) => {
+	// 		if (err) {
+	// 			return next(err)
+	// 		}
+	// 		res.json({
+	// 			err_code: 0
+	// 		})
+	// 	})
+	// })
+
+	pmFormidable(req)
+		.then(([fields, files]) => {
+			const body = fields
+			body.image = basename(files.image.path)			
+			const advert = new Advert({
+				title: body.title,
+				image: body.image,
+				link: body.link,
+				start_time: body.start_time,
+				end_time: body.end_time				
+			})
+			return advert.save()
 		})
-		advert.save((err, result) => {
-			if (err) {
-				return next(err)
-			}
+		.then((result) => {				
 			res.json({
 				err_code: 0
 			})
 		})
-	})
+		.catch(err => {
+			next(err)
+		})
+
+	function pmFormidable (req)  {
+		return new Promise((resolve, reject) => {
+			const form = new formidable.IncomingForm()
+			form.uploadDir = config.uploadDir
+			form.keepExtensions = true
+			form.parse(req, (err, fields, files) => {
+				if(err) {
+					reject(err)
+				}
+				resolve([fields, files])
+			})
+		})
+	}
+
 	
 })
 
 router.get('/advert/list', (req, res, next)=> {
-	Advert.find((err, docs) => {
-		if (err) {
-			return next(err)
-		}
-		res.json({
-			err_code: 0,
-			result: docs
+	let { page, pageSize } = req.query
+	page = Number.parseInt(page)
+	pageSize = Number.parseInt(pageSize)
+	Advert
+		.find()
+		.skip((page - 1) * pageSize)
+		.limit(pageSize)
+		.exec((err, adverts) => {
+			if(err) {
+				return next(err)
+			}
+			res.json({
+				err_code: 0,
+				result: adverts
+			})
 		})
-	})
 })
 
 
